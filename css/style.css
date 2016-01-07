@@ -1,0 +1,270 @@
+/* O2O - Price tiles */
+.o2o-price-tile {
+  border: 1px solid #ededed;
+  padding: 5px;
+  cursor: pointer;
+  margin-right: 15px;
+  height: 85px; }
+
+.o2o-price-tile.o2o-price-tile-highlight {
+  border: 1px solid #ff8831; }
+
+.buy-now-o2o-flow {
+  display: block; }
+
+.pdp-o2o-phrase {
+  height: 42px;
+  text-align: left;
+  font-size: 15px;
+  padding: 0 10px 0 10px;
+  line-height: 17px; }
+
+.o2o-slide-toggle.o2o-show-me-class, .o2o-default-applied-class.o2o-show-me-class {
+  display: block; }
+
+.o2o-applied-flow, .o2o-o2o-flow, .o2o-default-applied-class {
+  margin-top: 20px;
+  padding: 10px 20px 10px 25px;
+  line-height: 20px;
+  font-size: 13px; }
+
+.o2o-slide-toggle, .o2o-default-applied-class, .o2o-display-hidden {
+  display: none; }
+
+.o2o-applied-flow, .o2o-default-applied-class {
+  background: #19bc9d;
+  color: #f4f4f2; }
+
+.parent-clear:after {
+  content: '';
+  display: block;
+  clear: both; }
+
+.put-me-left {
+  float: left; }
+
+.o2o-bold-class {
+  font-family: robotoBold; }
+
+.ie8 .o2o-bold-class {
+  font-weight: bold !important; }
+
+.o2o-store-row {
+  border: 1px solid #f8f8f8;
+  margin: 40px -20px 10px;
+  position: relative; }
+  .o2o-store-row .store-logo {
+    top: -10px;
+    right: 2%;
+    position: absolute; }
+  .o2o-store-row .map-section {
+    float: left;
+    margin-right: 20px;
+    position: relative; }
+    .o2o-store-row .map-section .store-distance-info {
+      background: rgba(0, 0, 0, 0.6);
+      position: absolute;
+      bottom: 7px;
+      font-size: 11px;
+      left: 19%;
+      color: #fff;
+      font-family: robotoLight;
+      padding: 5px 10px 7px;
+      border-radius: 12px; }
+  .o2o-store-row .nearby-txt-section {
+    margin-top: 40px; }
+    .o2o-store-row .nearby-txt-section .right-check {
+      background: #19bc9c;
+      border-radius: 50%;
+      color: #fff;
+      font-size: 20px;
+      padding: 2px;
+      float: left;
+      margin-top: 9px;
+      margin-right: 10px; }
+    .o2o-store-row .nearby-txt-section .nearby-store {
+      font: 14px robotoBold;
+      text-transform: uppercase; }
+    .o2o-store-row .nearby-txt-section .nearby-txt {
+      color: #999;
+      font: 14px robotoRegular;
+      margin-bottom: 5px; }
+  .o2o-store-row .apply-cta-section {
+    float: left; }
+    .o2o-store-row .apply-cta-section .nearby-store {
+      font: 14px robotoBold;
+      margin: 30px 0 15px; }
+    .o2o-store-row .apply-cta-section .o2o-buy-cta {
+      font-size: 12px; }
+  .o2o-store-row .seller-detail-section {
+    float: left;
+    border-left: 1px solid #f8f8f8;
+    padding: 10px 0 10px 25px;
+    margin-top: 18px; }
+    .o2o-store-row .seller-detail-section .o2o-seller-detail {
+      margin-bottom: 10px;
+      text-overflow: ellipsis;
+      overflow: hidden;
+      white-space: nowrap;
+      font-size: 10px; }
+      .o2o-store-row .seller-detail-section .o2o-seller-detail .seller-detail-desc {
+        color: #666666; }
+      .o2o-store-row .seller-detail-section .o2o-seller-detail .blue-disc-bullets {
+        border-radius: 50%;
+        color: white;
+        content: " ";
+        box-shadow: 0px 0px 1px 1px #31b1f2 inset;
+        width: 6px;
+        height: 6px;
+        vertical-align: 1px;
+        display: inline-block;
+        margin-right: 5px; }
+    .o2o-store-row .seller-detail-section .o2o-seller-viewDetail {
+      margin-top: 15px; }
+      .o2o-store-row .seller-detail-section .o2o-seller-viewDetail a {
+        font-size: 10px;
+        color: #212121;
+        text-decoration: underline; }
+
+.o2o-o2o-flow {
+  background: #f7f8fa;
+  color: #212123; }
+
+.o2o-undo-button, .o2o-apply-button {
+  float: right;
+  padding: 2px 10px 2px 10px;
+  text-transform: UPPERCASE;
+  cursor: pointer; }
+
+.o2o-apply-button {
+  color: #2194d5;
+  border: solid 1px #3cb3ed; }
+
+.o2o-undo-button {
+  color: #f4f4f2;
+  border: solid 1px #f4f4f2; }
+
+.o2o-applied-check {
+  padding: 4px 6px;
+  background: #f4f4f2;
+  font-size: 17px;
+  border-radius: 50px;
+  float: left;
+  margin-right: 10px;
+  color: #19bc9d; }
+
+.o2o-help-icon {
+  cursor: pointer; }
+
+.o2o-price-tile-highlight:before {
+  display: inline-block;
+  font-family: "snapdeal_font2";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+  content: "\f110";
+  color: #fff;
+  right: -8px;
+  position: absolute;
+  top: -10px;
+  padding: 3px;
+  background-color: #ff8831;
+  border-radius: 50px; }
+
+/* O2O - Price tiles */
+/** Self-pickup **/
+.float-me-left {
+  float: left; }
+
+.pdp-e-self-pick-container {
+  border: 1px solid #efefef;
+  border-width: 10px 0 1px 0; }
+
+.pad-20 {
+  padding: 20px; }
+
+.tile-head {
+  padding-bottom: 10px;
+  color: #212121;
+  font-size: 14px; }
+
+.tile-head:after {
+  content: '';
+  display: block;
+  clear: both; }
+
+.tile-body {
+  line-height: 18px;
+  color: #adadad; }
+
+.self-pick-title, .self-pick-head, .self-pick-seller {
+  background: url("/img/metroUI/selfpick.png") no-repeat;
+  width: 100px;
+  height: 20px; }
+
+.self-pick-seller {
+  display: inline-block;
+  background-size: 65%; }
+
+.self-pick-status {
+  background-color: #ff9a00;
+  color: #fff;
+  padding: 2px 5px;
+  font-size: 12px; }
+
+.self-color-code {
+  color: #dd3e3e; }
+
+.pick-up-color-code {
+  color: #066693; }
+
+.self-pick-up-phrase {
+  color: #9e9e9e; }
+
+.self-pick-outer {
+  padding: 15px;
+  max-width: 500px; }
+
+.self-pick-head {
+  background-size: 75%;
+  margin: 0 auto;
+  background-position: center top; }
+
+.self-pick-content {
+  width: 200px;
+  text-align: center;
+  color: #9e9e9e;
+  font-size: 11px; }
+
+.pad-left {
+  padding-left: 15px; }
+
+.o2o-freebies-item {
+  display: block;
+  padding: 5px 0 5px 0;
+  color: #9e9e9e; }
+
+.o2o-tick {
+  color: #28c940;
+  margin-right: 5px;
+  font-size: 12px;
+  font-weight: bolder; }
+
+/** Self-pickup **/
+/** Seller Cards **/
+.pdp-seller-card-toggle.show-tile {
+  display: block; }
+
+.pdp-seller-card-toggle {
+  display: none; }
+
+/** Seller Cards **/
+
+/*# sourceMappingURL=style.css.map */
