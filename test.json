@@ -1,0 +1,21 @@
+{
+	"category": 
+			["New Arivals", "Accesories", "Bags", "Dressed", "Jackets", "jewelry", "Shoes", "Shirts", "Sweaters", "T-shirts" ],
+
+
+	"colors": 
+			["Beige", "Black",  "Blue", "Brown", "Green", "Grey", "Orange", "Purple", "Red", "White"],
+
+
+	"sizes": 
+			["xs", "s", "m", "l", "xl", "xxl"],
+
+
+	"price": 
+			["<10000", "10,000 to 25,000", ">25,000"],
+
+
+	"Star": 
+			["1","2", "3", "4", "5"]
+}
+

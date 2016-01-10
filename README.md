@@ -1,2 +1,0 @@
-# askMe
-assignment

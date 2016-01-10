@@ -114,7 +114,7 @@ $grid-breakpoints: (
   // Large screen / desktop
   lg: 992px,
   // Extra large screen / wide desktop
-  xl: 1200px
+  xl: 1023px
 ) !default;
 
 
@@ -126,7 +126,7 @@ $container-max-widths: (
   sm: 576px,
   md: 720px,
   lg: 940px,
-  xl: 1140px
+  xl: 1366px
 ) !default;
 
 
@@ -134,8 +134,8 @@ $container-max-widths: (
 //
 // Set the number of columns and specify the width of the gutters.
 
-$grid-columns:               12 !default;
-$grid-gutter-width:          1.875rem !default; // 30px
+$grid-columns:               24 !default;
+$grid-gutter-width:          1.5rem !default; // 30px
 
 
 // Typography
